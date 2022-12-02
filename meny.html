@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny</title>
+    <link rel="stylesheet" href="stilmeny.css">
+
+</head>
+<body> 
+    <div class="menyknapper">  <!--div classen omringer bare meny knappene siden de ikke har relasjoner til resten av koden-->
+        <ul>
+            <li><a href="hjem.html">Hjem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+<!---->
+    <div class="container"><!--dette er classen til selve meny siden-->
+        <div class="meny"><!--hele meny koden tilhører denne klassen, men er bygget opp av flere underklasser-->
+            <h1>Meny</h1><br><br>
+            <p>HV = Hvete | E = Egg | M = Mel | NØ = Nøtter</p><br><br>
+            <h2 class="meny-group-heading">
+                Forrett
+            </h2><br>
+            <div class="meny-group"><!--denne klassen er med på å dele opp menyen i de forskjellige måltidene som, forkost,middag,etc. -->
+                <div class="menu-item"><!--dette er klassen for de individuelle rettene-->
+                    <img class="menu-item-image" src="./BILDER/omelett.PNG" alt="omelett" class="menu-item-img">
+                    
+                    <div class="menu-item-text"><!--strukturerer teksten slik at den passer med bildet -->
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Omelett Mix</span>
+                        </h3>
+                        <p>Omelett med champignon, feta ost og sucuk(tyrkisk pepperoni). Serveres med potetbåter, tzatsiki, salat og brød. </p>
+                        <p>Allergier: E. M.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/SUPPE.PNG" alt="SUPPE" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Linsesuppe</span>
+                        </h3>
+                        <p>En delikat suppe med linser.</p>
+                    
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 class="meny-group-heading">
+                Middag
+            </h2>
+            <div class="meny-group">
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/PASTA.PNG" alt="Pasta" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Pasta</span>
+                        </h3>
+                        <p>Italiensk pasta stekt sammen med sellerirot, aubergine, sjampinjong og grønn squash. Serveres med salat og trøffel. </p>
+                        <p>Allergier: HV. E. M.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/KYLLINGSPYD.PNG" alt="kyllingspyd" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Kyllingspyd</span>
+                        </h3>
+                        <p>Marinert kyllingfilet i spyd. Serveres med tyrkisk bulgur-ris, tzatsiki, salat og brød.</p>
+                        <p>Allergier: HV. E.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/iskender.PNG" alt="Beyti" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Beyti</span>
+                        </h3>
+                        <p>Husets spesial Døner Kebab rullet i flatbrød og dekket av yoghurt og tomatsaus. Serveres med tyrkisk bulgur-ris og salat.</p>
+                        <p>Allergier: HV. E. M.</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <h2 class="meny-group-heading">
+                Dessert
+            </h2>
+            <div class="meny-group">
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/kunefe.PNG" alt="Kunefe" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Kunefe</span>
+                        </h3>
+                        <p>Serveres med vaniljeis. </p>
+                        <p>Allergier HV. M. E. NØ.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img class="menu-item-image" src="./BILDER/RIS.PNG" alt="sutlac" class="menu-item-img">
+                    
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Sutlac</span>
+                        </h3>
+                        <p>Overstekt tyrkisk ris-pudding. </p>
+                        <p>Allergier: HV. M.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
